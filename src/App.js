@@ -36,7 +36,7 @@ function App() {
             alert("Dat is geen probleem privacy gaat voor!");
     }}
         location="bottom"
-        buttonText="Sure man!!"
+        buttonText="I Accept"
         cookieName="myAwesomeCookieName2"
         style={{ background: "#2B373B" }}
         buttonStyle={{ color: "#4e503b", fontSize: "13px" }}

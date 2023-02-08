@@ -36,7 +36,8 @@ const Login = () => {
     setUser(response.data)
     // store the user in localStorage
     localStorage.setItem('user', response.data.details.tokens[0].token)
-    console.log(response.data.details.tokens[0].token)
+    localStorage.setItem('username', response.data.details.username)
+    
   };
 
 
@@ -48,13 +49,7 @@ const Login = () => {
     }
   }, []);
 
-  const handleLogout = () => {
-    setUser({});
-    setUsername("");
-    setPassword("");
-    localStorage.clear(user);
-  };
-
+  
 // if there's a user show the message below
   if (user) {
     return <Navigate to="/" />;
