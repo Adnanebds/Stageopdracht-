@@ -1,9 +1,14 @@
-// schemas/post.js
 export default {
     name: 'post',
     title: 'Post',
     type: 'document',
     fields: [
+      {
+        name: 'postId',
+        title: 'ID',
+        type: 'string',
+        readOnly: false,
+      },
       {
         name: 'title',
         title: 'Title',
@@ -24,4 +29,3 @@ export default {
       }
     ]
   }
-  
