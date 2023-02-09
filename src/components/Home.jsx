@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Stats from "./Stats";
 
 const Home = () => {
+    
     return (
         <div>
         <Navbar />

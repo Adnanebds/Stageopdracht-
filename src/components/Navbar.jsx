@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaHome, FaArrowCircleRight, FaChild, FaBuffer, FaPhoneAlt, FaAddressCard } from 'react-icons/fa';  
+import { FaHome,FaBlogger, FaArrowCircleRight, FaChild, FaBuffer, FaPhoneAlt, FaAddressCard } from 'react-icons/fa';  
 import LogoutAlert from "./LogoutAlert";
 
 const Navbar = () => {
@@ -69,6 +69,10 @@ return (
           <li>
             <FaPhoneAlt />
             <a href="/contact" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          </li>
+          <li>
+            <FaBlogger />
+            <a href="/blog" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
           </li>
          {user ? (
           <>

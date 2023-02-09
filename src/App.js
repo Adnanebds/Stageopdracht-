@@ -14,6 +14,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import CookieConsent from "react-cookie-consent";
 import Privacy from './components/Privacy';
+import Posts from './components/Posts';
 
 function App() {
   
@@ -47,6 +48,7 @@ function App() {
       </CookieConsent>
       <BrowserRouter>
       <Routes>
+      <Route path="/blog" element={<Posts/>}/>
         <Route path="/" element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/privacy" element={<Privacy/>}/>
