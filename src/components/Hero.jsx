@@ -14,7 +14,7 @@ const Hero = () => {
              Welkom op mijn website
             </h1>
             <p class="leading-normal text-2xl mb-8 animate__animated animate__backInRight">
-              Deze website is gemaakt door dnane Bady-Soussi als opdracht!
+              Deze website is gemaakt door Adnane Bady-Soussi als opdracht!
             </p>
             <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out animate__animated animate__backInRight">
               <a href='/overmij'>Over Mij </a>
