@@ -54,7 +54,7 @@ const Registration = () => {
       setErrorMessage(errorMessage);
       return;
     }
-    fetch("https://four-meals-stare-185-88-64-239.loca.lt/auth/register", {
+    fetch("https://spotty-papers-listen-185-88-64-239.loca.lt/auth/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
