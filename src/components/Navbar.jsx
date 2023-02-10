@@ -43,8 +43,8 @@ setTimeout(() => {
 
 
 return (
-  <div class="navbar">
-  <nav class="p-3 border-gray-200 rounded bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+  <div class="navbar ">
+  <nav class="p-3 border-gray-200 rounded bg-gray-50 dark:bg-gray-800 dark:border-gray-700 animate__animated animate__bounceInLeft">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
     <a href="#" class="flex items-center">
             <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Adnane</span>

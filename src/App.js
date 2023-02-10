@@ -16,14 +16,13 @@ import CookieConsent from "react-cookie-consent";
 import Privacy from './components/Privacy';
 import Posts from './components/Posts';
 
-function App() {
-  
 
- 
+function App() {
+
   
   return (
     <>
-          <CookieConsent
+          <CookieConsent  overlay
          onAccept={(acceptedByScrolling) => {
           if (acceptedByScrolling) {
             // triggered if user scrolls past threshold
@@ -37,13 +36,13 @@ function App() {
             alert("Dat is geen probleem privacy gaat voor!");
     }}
         location="bottom"
-        buttonText="I Accept"
+        buttonText="Ik Accepteer"
         cookieName="myAwesomeCookieName2"
-        style={{ background: "#2B373B" }}
+        style={{ background: "#2B373B", fontWeight: "bold" }}
         buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
         expires={150}
       >
-        This website uses cookies to enhance the user experience.{" "}
+        This website gebruikt cookies om de gebruiker ervaring te verbeteren.{" "}
       
       </CookieConsent>
       <BrowserRouter>
@@ -59,7 +58,9 @@ function App() {
 
       </Routes>
     </BrowserRouter>
+    
     </>
+    
     
   );
 }

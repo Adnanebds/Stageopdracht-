@@ -35,7 +35,7 @@ const Hero = () => {
                     <div class="ka sm:ha">
                         <h3 class="kb qb md:ib">Programmeren</h3>
                         <p class="p lb sm:lc">
-                            Consequatur quidem deserunt qui fugit cumque ut esse est dignissimos. Itaque quia et veritatis. Qui voluptatem dolor quia exercitationem sed similique. Incidunt quae suscipit nihil deleniti. Possimus praesentium sunt aut tempora ut alias.
+                            Ik ben hiermee sinds de eerste klas in mijn opleiding. Ik was hier eigenlijk niet in geinterriseerd, ook wou ik stoppen in het begin, maar na een tijdje begon het leuk te worden, vooral als het werkt
                         </p>
                         <button class="wa hover:bg-emerald-700 zb cc ab.5 bb oa rb qb g la.5">
                         <a href='/overmij'>Bekijk meer </a>
@@ -56,7 +56,7 @@ const Hero = () => {
                     <div class="ka sm:ha">
                         <h3 class="kb qb md:ib">Gymmen</h3>
                         <p class="p lb sm:lc">
-                            Itaque cupiditate soluta necessitatibus. Quis ut veritatis sed exercitationem autem est. Pariatur dolorum officiis fuga officia labore libero. Magni tenetur delectus. Et consequatur accusantium quisquam reiciendis aut.
+                            Ik ben begonnen met serieus gymmen op 17. Ik was een voetballer, maar door vele inspiritaties had ik besloten om voetbal achter te laten en naar de gym te gaan. 
                         </p>
                         <button class="wa hover:xa zb cc ab.5 bb oa rb qb g la.5">
                         <a href='/overmij'>Bekijk meer </a>
@@ -77,7 +77,7 @@ const Hero = () => {
                     <div class="ka sm:ha">
                         <h3 class="kb qb md:ib">Boksen</h3>
                         <p class="p lb sm:lc">
-                            Neque aperiam labore reiciendis fugit error mollitia. Repellat non voluptatem expedita quos quia. Quae architecto quia perferendis dicta facilis. Impedit aut sit. Voluptatem praesentium rem officiis.
+                            Ik ben eigenlijk gestart met boksen door een anime genaamd Hajime No Ippo. Ik vond het zo leuk dat ik voetbal had verlaten en dit te doen naast de gym.
                         </p>
                         <button class="wa hover:xa zb cc ab.5 bb oa rb qb g la.5">
                         <a href='/overmij'>Bekijk meer </a>
