@@ -54,7 +54,7 @@ const Registration = () => {
       setErrorMessage(errorMessage);
       return;
     }
-    fetch("https://icy-carrots-kiss-185-88-64-239.loca.lt/auth/register", {
+    fetch("https://great-hairs-fall-185-88-64-239.loca.lt/auth/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
