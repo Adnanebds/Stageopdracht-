@@ -54,7 +54,7 @@ const Registration = () => {
       setErrorMessage(errorMessage);
       return;
     }
-    fetch("https://lazy-dragons-retire-185-88-64-239.loca.lt/auth/register/", {
+    fetch("http://localhost:8800/auth/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
