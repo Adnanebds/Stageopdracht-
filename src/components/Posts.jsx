@@ -21,17 +21,21 @@ function generateImageUrl(source) {
 
 const Posts = () => {
   const [posts, setPosts] = useState([]);
+  const [spinner, setSpinner] = useState(false);  
 
   useEffect(() => {
     const query = `*[_id in ["43302127-32f7-4b66-a7f4-a7a468f5764d", "636b1b75-b079-429d-ad53-913361f14227"]]`;
 
 
+    setSpinner(false);
 
     sanityClient
+    
       .fetch(query)
       .then(result => {
         console.log(result);
         setPosts(result);
+        setSpinner(false);
       })
       .catch(error => {
         console.error('Error fetching posts: ', error);
@@ -46,6 +50,9 @@ const Posts = () => {
       <Navbar />
       <br />
       <br />
+      {spinner && (
+            <p>something is loading</p>
+            )}
       <div className="flex flex-wrap">
         {posts.map((post, index) => (
           <div
@@ -55,7 +62,7 @@ const Posts = () => {
             }`}
           >
             <div className="bg-white max-w-sm border border-gray-200 rounded-lg shadow">
-              <a href="#">
+              <a href="http://localhost:3333/desk/post;636b1b75-b079-429d-ad53-913361f14227">
                 <img
                   className="object-contain h-150 w-150"
                   src={generateImageUrl(post.mainImage)}
@@ -73,7 +80,7 @@ const Posts = () => {
                   {post.body}.
                 </p>
                 <a
-                  href="#"
+                  href="http://localhost:3333/desk/post;43302127-32f7-4b66-a7f4-a7a468f5764d"
                   className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                 >
                   Read more
