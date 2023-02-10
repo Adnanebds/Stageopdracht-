@@ -19,9 +19,9 @@ import Posts from './components/Posts';
 
 function App() {
 
-  
   return (
     <>
+          
           <CookieConsent  overlay
          onAccept={(acceptedByScrolling) => {
           if (acceptedByScrolling) {
