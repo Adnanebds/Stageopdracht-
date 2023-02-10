@@ -25,8 +25,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      
-
+      <br></br>
       <section class="a _a cb b ja sm:wc md:bd xl:ld sm:pc xl:kd">
             <div class="g y z aa ha lg:nc lg:oc lg:id animate__animated animate__backInLeft">
                 <div class="p lg:fd">

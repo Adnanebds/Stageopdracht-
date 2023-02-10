@@ -54,7 +54,7 @@ const Registration = () => {
       setErrorMessage(errorMessage);
       return;
     }
-    fetch("http://localhost:8800/auth/login", {
+    fetch("http://localhost:8800/auth/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

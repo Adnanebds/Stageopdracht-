@@ -21,19 +21,34 @@ const Projects = () => {
           <div
             class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
           >
+            <a href='https://github.com/Adnanebds/ExamensFrontEnd'>
+            <h1 class="text-indigo-600 font-bold animate__animated animate__backInRight">
+             Examen Opdracht
+            </h1>
             <img  src={require("../assets/hero.png")}/>
+            </a>
           </div>
           
           <div
             class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
           >
+            <a href='https://github.com/Adnanebds/Frontend-Course'>
+            <h1 class="text-indigo-600 font-bold animate__animated animate__backInRight">
+             Course Cast Klant
+            </h1>
             <img  src={require("../assets/hero.png")}/>
+            </a>
           </div>
           
           <div
             class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
           >
+            <a href='https://github.com/Adnanebds/reisbureau-compleet'>
+            <h1 class="text-indigo-600 font-bold animate__animated animate__backInRight">
+             Booking.com Clone
+            </h1>
             <img  src={require("../assets/hero.png")}/>
+            </a>
           </div>
           
           <div

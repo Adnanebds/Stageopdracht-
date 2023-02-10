@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaHome,FaBlogger, FaArrowCircleRight, FaChild, FaBuffer, FaPhoneAlt, FaAddressCard } from 'react-icons/fa';  
+import { Navigate } from "react-router-dom";
 import LogoutAlert from "./LogoutAlert";
 
 const Navbar = () => {
@@ -29,7 +30,7 @@ localStorage.removeItem("user");
 localStorage.removeItem("username");
 setUser(null);
 setUserName(null);
-
+Navigate("/login")
 setShowLogoutAlert(true);
 setTimeout(() => {
   setShowLogoutAlert(false);
