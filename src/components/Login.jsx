@@ -29,7 +29,7 @@ const Login = () => {
     const user = { username, password };
     // send the username and password to the server
     const response = await axios.post(
-      "https://great-hairs-fall-185-88-64-239.loca.lt/auth/login",
+      "https://four-meals-stare-185-88-64-239.loca.lt/auth/login",
       user
     );
     // set the state of the user
