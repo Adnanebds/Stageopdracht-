@@ -54,7 +54,7 @@ const Registration = () => {
       setErrorMessage(errorMessage);
       return;
     }
-    fetch("http://localhost:8800/auth/register", {
+    fetch("https://petite-shoes-wonder-185-88-64-239.loca.lt/auth/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
